@@ -1,5 +1,26 @@
 body {
-  margin: 20% auto;
+  margin: 5% ;
+  margin-top: 5%;
+  width: 60%;
+  height: 100%;
+  background-color: bisque;
+}
+.calculator{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+label{
+align-items: center;
+}
+input{
+  margin: 2%;
+}
+button{
+  margin: 1%;
+}
+img{
   width: 50%;
-  height: 75%;
+ position: relative;
+ margin-left: 20%;
 }
